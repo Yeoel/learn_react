@@ -1,3 +1,5 @@
+'use server';
+
 import { Metadata } from 'next';
 
 export const dynamic = 'force-dynamic';
