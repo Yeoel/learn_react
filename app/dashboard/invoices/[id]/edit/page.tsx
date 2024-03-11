@@ -1,5 +1,3 @@
-'use server';
-
 import Form from '@/app/ui/invoices/edit-form';
 import Breadcrumbs from '@/app/ui/invoices/breadcrumbs';
 import { 
@@ -11,6 +9,7 @@ import { notFound } from 'next/navigation';
 import { Metadata } from 'next';
 
 export const dynamic = 'force-dynamic';
+export const revalidate = 0;
 
 export const metadata: Metadata = {
     title: 'Edit',
