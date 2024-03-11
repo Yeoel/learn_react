@@ -25,6 +25,8 @@ const UpdateInvoice = FormSchema.omit({ id: true, date: true });
 
 const CreateInvoice = FormSchema.omit({ id: true, date: true });
 
+export const dynamic = "force-dynamic";
+
 export type State = {
   errors?: {
     customerId?: string[];
